@@ -1,0 +1,12 @@
+# topic used for rescaling synchronization
+kafka.rescale.topic: rescaling2
+# topic used for replication synchronization
+kafka.replication.topic: replication3
+# replication interval (ms)
+replication.interval: 60000
+# your kafka server
+kafka.host: slave205:9092
+replication.enable: on
+kafka.session.timeout: 1600000
+# port used to transfer state data
+replication.port: 25555
